@@ -31,26 +31,7 @@ I run it on a RPI2.
 Installation
 ---------
 
-* Update and install requirements:
-
-		sudo apt-get update
-<!--meh -->
-		sudo apt-get dist-upgrade
-<!--meh -->
-		sudo apt-get install matchbox chromium x11-xserver-utils ttf-mscorefonts-installer xwit sqlite3 libnss3
-
-* Edit/replace config files.
-
-	* `config.txt` goes into the bottom of `/boot/config.txt`
-	* `default` goes to `/etc/apache2/sites-available/default`
-	* `xinitrc` goes into `~/.xinitrc`
-
-
-* Put `/screen` into home folder
-
-* Put in all your appropriate data in `js/config.js`
-
-* Boot 'er up!
+Run `sudo git clone https://github.com/Shugabuga/PorterInstall.git && sudo sh porter.sh` with a full Raspbian install to install.
 
 Warnings
 ---------
