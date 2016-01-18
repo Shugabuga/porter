@@ -31,7 +31,7 @@ I run it on a RPI2.
 Installation
 ---------
 
-Run `sudo git clone https://github.com/Shugabuga/PorterInstall.git && sudo sh porter.sh` with a full Raspbian install to install.
+Run `sudo git clone https://github.com/Shugabuga/PorterInstall.git && cd PorterInstall && sudo sh porter.sh` with a full Raspbian install to install.
 
 Warnings
 ---------
